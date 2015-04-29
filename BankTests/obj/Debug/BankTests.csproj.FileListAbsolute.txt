@@ -1,0 +1,7 @@
+c:\Users\psok\documents\visual studio 2013\Projects\Bank\BankTests\bin\Debug\BankTests.dll
+c:\Users\psok\documents\visual studio 2013\Projects\Bank\BankTests\bin\Debug\BankTests.pdb
+c:\Users\psok\documents\visual studio 2013\Projects\Bank\BankTests\bin\Debug\Bank.dll
+c:\Users\psok\documents\visual studio 2013\Projects\Bank\BankTests\bin\Debug\Bank.pdb
+c:\Users\psok\documents\visual studio 2013\Projects\Bank\BankTests\obj\Debug\BankTests.csprojResolveAssemblyReference.cache
+c:\Users\psok\documents\visual studio 2013\Projects\Bank\BankTests\obj\Debug\BankTests.dll
+c:\Users\psok\documents\visual studio 2013\Projects\Bank\BankTests\obj\Debug\BankTests.pdb
