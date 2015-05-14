@@ -3,3 +3,8 @@ c:\users\psok\documents\visual studio 2013\Projects\Bank\Bank\bin\Debug\Bank.pdb
 c:\users\psok\documents\visual studio 2013\Projects\Bank\Bank\obj\Debug\Bank.csprojResolveAssemblyReference.cache
 c:\users\psok\documents\visual studio 2013\Projects\Bank\Bank\obj\Debug\Bank.dll
 c:\users\psok\documents\visual studio 2013\Projects\Bank\Bank\obj\Debug\Bank.pdb
+C:\Users\psok\Documents\Visual Studio 2013\Projects\GIT\UnitTestBank\Bank\bin\Debug\Bank.dll
+C:\Users\psok\Documents\Visual Studio 2013\Projects\GIT\UnitTestBank\Bank\bin\Debug\Bank.pdb
+C:\Users\psok\Documents\Visual Studio 2013\Projects\GIT\UnitTestBank\Bank\obj\Debug\Bank.csprojResolveAssemblyReference.cache
+C:\Users\psok\Documents\Visual Studio 2013\Projects\GIT\UnitTestBank\Bank\obj\Debug\Bank.dll
+C:\Users\psok\Documents\Visual Studio 2013\Projects\GIT\UnitTestBank\Bank\obj\Debug\Bank.pdb

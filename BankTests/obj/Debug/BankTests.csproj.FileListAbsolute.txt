@@ -5,3 +5,10 @@ c:\Users\psok\documents\visual studio 2013\Projects\Bank\BankTests\bin\Debug\Ban
 c:\Users\psok\documents\visual studio 2013\Projects\Bank\BankTests\obj\Debug\BankTests.csprojResolveAssemblyReference.cache
 c:\Users\psok\documents\visual studio 2013\Projects\Bank\BankTests\obj\Debug\BankTests.dll
 c:\Users\psok\documents\visual studio 2013\Projects\Bank\BankTests\obj\Debug\BankTests.pdb
+C:\Users\psok\Documents\Visual Studio 2013\Projects\GIT\UnitTestBank\BankTests\bin\Debug\BankTests.dll
+C:\Users\psok\Documents\Visual Studio 2013\Projects\GIT\UnitTestBank\BankTests\bin\Debug\BankTests.pdb
+C:\Users\psok\Documents\Visual Studio 2013\Projects\GIT\UnitTestBank\BankTests\bin\Debug\Bank.dll
+C:\Users\psok\Documents\Visual Studio 2013\Projects\GIT\UnitTestBank\BankTests\bin\Debug\Bank.pdb
+C:\Users\psok\Documents\Visual Studio 2013\Projects\GIT\UnitTestBank\BankTests\obj\Debug\BankTests.csprojResolveAssemblyReference.cache
+C:\Users\psok\Documents\Visual Studio 2013\Projects\GIT\UnitTestBank\BankTests\obj\Debug\BankTests.dll
+C:\Users\psok\Documents\Visual Studio 2013\Projects\GIT\UnitTestBank\BankTests\obj\Debug\BankTests.pdb

@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using BankAccountNS;
+using System.Diagnostics;
 
 namespace BankTests
 {
@@ -25,18 +26,70 @@ namespace BankTests
         }
 
         [TestMethod]
-        [ExpectedException(typeof(ArgumentOutOfRangeException))]
+        public void Debit_WhenAmountIsGreaterThanBalance_ShouldThrowArgumentOutOfRange()
+        {
+            // arrange
+            double beginningBalance = 11.99;
+            double debitAmount = 12;
+            BankAccount account = new BankAccount("Mr. Bryan Walton", beginningBalance);
+            
+            // act
+            try
+            {
+                account.Debit(debitAmount);
+            }
+            catch (ArgumentOutOfRangeException e)
+            {
+                // assert                
+                StringAssert.Contains(e.Message, BankAccount.DebitAmountExceedsBalanceMessage);
+                return;
+            }
+            Assert.Fail("No exception was thrown.");
+        }
+
+        [TestMethod]        
         public void Debit_WhenAmountIsLessThanZero_ShouldThrowArgumentOutOfRange()
         {
             // arrange
             double beginningBalance = 11.99;
-            double debitAmount = -100.00;
+            double debitAmount = -0.01;
             BankAccount account = new BankAccount("Mr. Bryan Walton", beginningBalance);
 
             // act
-            account.Debit(debitAmount);
+            try
+            {
+                account.Debit(debitAmount);
+            }
+            catch(ArgumentOutOfRangeException e)
+            {
+                // assert                
+                StringAssert.Contains(e.Message, BankAccount.DebitAmountLessThanZeroMessage);
+                return;
+            }
+            Assert.Fail("No exception was thrown.");
+        }
 
-            // assert is handled by ExpectedException
+        [TestMethod]
+        public void Debit_WhenAccountIsFrozen_ShouldThrowException()
+        {
+            // arrange
+            double beginningBalance = 11.99;
+            double debitAmount = 4.44;
+            BankAccount account = new BankAccount("Mr. Bryan Walton", beginningBalance);
+            account.FreezeAccount();
+
+            // act
+            try
+            {
+                account.Debit(debitAmount);
+            }
+            catch (Exception e)
+            {
+                // assert                
+                StringAssert.Contains(e.Message, BankAccount.AccountIsFrozen);
+                return;
+            }
+            Assert.Fail("No exception was thrown.");
         }
     }
 }
